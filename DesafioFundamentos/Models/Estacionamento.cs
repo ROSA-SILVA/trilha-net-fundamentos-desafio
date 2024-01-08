@@ -14,7 +14,7 @@ namespace DesafioFundamentos.Models
 
         public void AdicionarVeiculo()
         {
-            
+              //implementado !!
             Console.WriteLine($"Digite a placa do veículo para estacionar:"); 
             string placa = Console.ReadLine();
             veiculos.Add(placa);
@@ -35,9 +35,8 @@ namespace DesafioFundamentos.Models
             {
                 Console.WriteLine("Digite a quantidade de horas que o veículo permaneceu estacionado:");
 
-                // TODO: Pedir para o usuário digitar a quantidade de horas que o veículo permaneceu estacionado,
-                // TODO: Realizar o seguinte cálculo: "precoInicial + precoPorHora * horas" para a variável valorTotal                
-                // *IMPLEMENTE AQUI*
+                       
+                // *IMPLEMENTADO*
                 int horas = Convert.ToInt32(Console.ReadLine())
 
 
