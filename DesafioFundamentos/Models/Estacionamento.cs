@@ -44,8 +44,7 @@ namespace DesafioFundamentos.Models
 
                 veiculos.Remover(placa);
 
-                // TODO: Remover a placa digitada da lista de veículos
-                // *IMPLEMENTE AQUI*
+                // *implementado*
 
                 Console.WriteLine($"O veículo {placa} foi removido e o preço total foi de: R$ {valorTotal}");
             }
@@ -61,8 +60,8 @@ namespace DesafioFundamentos.Models
             if (veiculos.Any())
             {
                 Console.WriteLine("Os veículos estacionados são:");
-                // TODO: Realizar um laço de repetição, exibindo os veículos estacionados
-                // *IMPLEMENTE AQUI*
+            
+                // *IMPLEMENTADO*
                 foreach(var veiculo in veiculo)
                 
                 {
